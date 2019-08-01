@@ -11,7 +11,7 @@
 		545F5DAD22F2BCA60061F339 /* ModelUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545F5DAB22F2BCA50061F339 /* ModelUser.swift */; };
 		545F5DB422F2C09C0061F339 /* ModelHistoryMakanan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545F5DB322F2C09C0061F339 /* ModelHistoryMakanan.swift */; };
 		545F5DB722F2C1260061F339 /* TableViewCellHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545F5DB622F2C1260061F339 /* TableViewCellHistory.swift */; };
-		54C46B5D22F281A9000D0D3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C46B5C22F281A9000D0D3D /* ViewController.swift */; };
+		54C46B5D22F281A9000D0D3D /* FriendController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C46B5C22F281A9000D0D3D /* FriendController.swift */; };
 		54C46B6122F284F6000D0D3D /* FriendCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C46B6022F284F6000D0D3D /* FriendCell.swift */; };
 		54DB6B2C22EEAB9300AB62F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DB6B2B22EEAB9300AB62F3 /* AppDelegate.swift */; };
 		54DB6B2E22EEAB9300AB62F3 /* StartController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DB6B2D22EEAB9300AB62F3 /* StartController.swift */; };
@@ -26,7 +26,7 @@
 		545F5DAB22F2BCA50061F339 /* ModelUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelUser.swift; sourceTree = "<group>"; };
 		545F5DB322F2C09C0061F339 /* ModelHistoryMakanan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelHistoryMakanan.swift; sourceTree = "<group>"; };
 		545F5DB622F2C1260061F339 /* TableViewCellHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellHistory.swift; sourceTree = "<group>"; };
-		54C46B5C22F281A9000D0D3D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		54C46B5C22F281A9000D0D3D /* FriendController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendController.swift; sourceTree = "<group>"; };
 		54C46B6022F284F6000D0D3D /* FriendCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendCell.swift; sourceTree = "<group>"; };
 		54DB6B2822EEAB9300AB62F3 /* Lunchie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lunchie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54DB6B2B22EEAB9300AB62F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -52,6 +52,8 @@
 		545F5DB222F2C07E0061F339 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				545F5DAA22F2BCA50061F339 /* ModelFriend.swift */,
+				545F5DAB22F2BCA50061F339 /* ModelUser.swift */,
 				545F5DB322F2C09C0061F339 /* ModelHistoryMakanan.swift */,
 			);
 			path = Model;
@@ -61,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				545F5DB622F2C1260061F339 /* TableViewCellHistory.swift */,
+				54C46B6022F284F6000D0D3D /* FriendCell.swift */,
 			);
 			path = TableViewCell;
 			sourceTree = "<group>";
@@ -87,12 +90,9 @@
 				545F5DB522F2C0E90061F339 /* TableViewCell */,
 				545F5DB222F2C07E0061F339 /* Model */,
 				54DB6B2B22EEAB9300AB62F3 /* AppDelegate.swift */,
-				545F5DAA22F2BCA50061F339 /* ModelFriend.swift */,
-				545F5DAB22F2BCA50061F339 /* ModelUser.swift */,
 				54DB6B2D22EEAB9300AB62F3 /* StartController.swift */,
 				54FCBFDB22EEE4E300E9796B /* HistoryController.swift */,
-				54C46B5C22F281A9000D0D3D /* ViewController.swift */,
-				54C46B6022F284F6000D0D3D /* FriendCell.swift */,
+				54C46B5C22F281A9000D0D3D /* FriendController.swift */,
 				54DB6B2F22EEAB9300AB62F3 /* Main.storyboard */,
 				54DB6B3222EEAB9600AB62F3 /* Assets.xcassets */,
 				54DB6B3422EEAB9600AB62F3 /* LaunchScreen.storyboard */,
@@ -179,7 +179,7 @@
 				54DB6B2E22EEAB9300AB62F3 /* StartController.swift in Sources */,
 				545F5DAC22F2BCA60061F339 /* ModelFriend.swift in Sources */,
 				545F5DB722F2C1260061F339 /* TableViewCellHistory.swift in Sources */,
-				54C46B5D22F281A9000D0D3D /* ViewController.swift in Sources */,
+				54C46B5D22F281A9000D0D3D /* FriendController.swift in Sources */,
 				54DB6B2C22EEAB9300AB62F3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

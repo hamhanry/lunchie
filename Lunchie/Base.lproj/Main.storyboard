@@ -54,7 +54,7 @@
         <!--Item 2-->
         <scene sceneID="yuG-eZ-qUy">
             <objects>
-                <viewController id="amG-bj-Sfw" customClass="ViewController" customModule="Lunchie" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="amG-bj-Sfw" customClass="FriendController" customModule="Lunchie" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5hV-CD-TWI">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
