@@ -13,7 +13,7 @@ class FriendController: UIViewController {
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var commandLabel: UILabel!
     @IBOutlet weak var greetingLabel: UILabel!
-    var friends : [ModelFriend] = []
+    var friends : [ModelFood] = []
     
     @IBAction func confirmButton(_ sender: UIButton) {
         
@@ -32,14 +32,14 @@ class FriendController: UIViewController {
         
     }
     
-    func createArray() -> [ModelFriend]{
-        var tempFriends : [ModelFriend] = []
+    func createArray() -> [ModelFood]{
+        var tempFriends : [ModelFood] = []
         
-        let friend1 = ModelFriend(image : UIImage(named: "lunch")!, name: "Hanry")
-        let friend2 = ModelFriend(image : UIImage(named: "lunch")!, name: "Ade")
-        let friend3 = ModelFriend(image : UIImage(named: "lunch")!, name: "Alfi")
-        let friend4 = ModelFriend(image : UIImage(named: "lunch")!, name: "Chico")
-        let friend5 = ModelFriend(image : UIImage(named: "lunch")!, name: "Lasmi")
+        let friend1 = ModelFood(image : UIImage(named: "lunch")!, name: "Hanry")
+        let friend2 = ModelFood(image : UIImage(named: "lunch")!, name: "Ade")
+        let friend3 = ModelFood(image : UIImage(named: "lunch")!, name: "Alfi")
+        let friend4 = ModelFood(image : UIImage(named: "lunch")!, name: "Chico")
+        let friend5 = ModelFood(image : UIImage(named: "lunch")!, name: "Lasmi")
         
         tempFriends.append(friend1)
         tempFriends.append(friend2)
