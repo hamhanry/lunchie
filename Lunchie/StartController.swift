@@ -19,8 +19,8 @@ class StartController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        let temp = UIApplication.shared.delegate as! AppDelegate
-        introductionLabel.text = temp.userActive.name
+        //let temp = UIApplication.shared.delegate as! AppDelegate
+        //introductionLabel.text = temp.userActive.name
         imageView.image = UIImage(named : "lunch")
     }
     

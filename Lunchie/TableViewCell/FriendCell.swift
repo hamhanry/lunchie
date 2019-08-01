@@ -28,7 +28,7 @@ class FriendCell: UITableViewCell {
         }
     }
     
-    func setFriendList(list : ModelFood){
+    func setFriendList(list : ModelFriend){
         friendImageView.image = list.image
         friendName.text = list.name
     }

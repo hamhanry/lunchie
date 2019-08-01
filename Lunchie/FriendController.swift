@@ -13,7 +13,8 @@ class FriendController: UIViewController {
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var commandLabel: UILabel!
     @IBOutlet weak var greetingLabel: UILabel!
-    var friends : [ModelFood] = []
+    var friends : [ModelFriend] = []
+    let temp = UIApplication.shared.delegate as! AppDelegate
     
     @IBAction func confirmButton(_ sender: UIButton) {
         
@@ -21,7 +22,6 @@ class FriendController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let temp = UIApplication.shared.delegate as! AppDelegate
         friends = createArray()
         tableView.delegate = self
         tableView.dataSource = self
@@ -32,14 +32,14 @@ class FriendController: UIViewController {
         
     }
     
-    func createArray() -> [ModelFood]{
-        var tempFriends : [ModelFood] = []
+    func createArray() -> [ModelFriend]{
+        var tempFriends : [ModelFriend] = []
         
-        let friend1 = ModelFood(image : UIImage(named: "lunch")!, name: "Hanry")
-        let friend2 = ModelFood(image : UIImage(named: "lunch")!, name: "Ade")
-        let friend3 = ModelFood(image : UIImage(named: "lunch")!, name: "Alfi")
-        let friend4 = ModelFood(image : UIImage(named: "lunch")!, name: "Chico")
-        let friend5 = ModelFood(image : UIImage(named: "lunch")!, name: "Lasmi")
+        let friend1 = ModelFriend(image : UIImage(named: "lunch")!, name: "Hanry")
+        let friend2 = ModelFriend(image : UIImage(named: "lunch")!, name: "Ade")
+        let friend3 = ModelFriend(image : UIImage(named: "lunch")!, name: "Alfi")
+        let friend4 = ModelFriend(image : UIImage(named: "lunch")!, name: "Chico")
+        let friend5 = ModelFriend(image : UIImage(named: "lunch")!, name: "Lasmi")
         
         tempFriends.append(friend1)
         tempFriends.append(friend2)
@@ -48,9 +48,7 @@ class FriendController: UIViewController {
         tempFriends.append(friend5)
         
         return tempFriends
-        
     }
-    
 }
 
 extension FriendController: UITableViewDelegate, UITableViewDataSource{
@@ -65,6 +63,4 @@ extension FriendController: UITableViewDelegate, UITableViewDataSource{
         cell.setFriendList(list: friend)
         return cell
     }
-    
-    
 }
