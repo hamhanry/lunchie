@@ -2,7 +2,7 @@
 //  PeopleCollectionViewCell.swift
 //  Lunchie
 //
-//  Created by Bin-15 on 01/08/19.
+//  Created by Hanry Ham on 02/08/19.
 //  Copyright © 2019 Hanry Ham. All rights reserved.
 //
 
@@ -15,4 +15,5 @@ class PeopleCollectionViewCell: UICollectionViewCell {
     func setImage(img: UIImage) {
         peopleImage.image = img
     }
+    
 }

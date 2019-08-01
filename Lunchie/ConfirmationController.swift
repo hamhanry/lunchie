@@ -18,6 +18,7 @@ class ConfirmationController: UIViewController, UICollectionViewDelegate, UIColl
     @IBOutlet weak var timeLabel: UILabel!
     @IBOutlet weak var headerCollection: UILabel!
     @IBOutlet weak var collectionView: UICollectionView!
+    @IBOutlet weak var pickSpinnerBtn: UIButton!
     
     var event : ModelEvent?
     var friends : [ModelFriend] = []
@@ -36,6 +37,7 @@ class ConfirmationController: UIViewController, UICollectionViewDelegate, UIColl
         timeLabel.text = timeString(time: TimeInterval(seconds))
         if seconds < 1 {
             timer.invalidate()
+            pickSpinnerBtn.isHidden = false
             //Send alert to indicate "time's up!"
         } else {
             seconds -= 1
@@ -56,11 +58,14 @@ class ConfirmationController: UIViewController, UICollectionViewDelegate, UIColl
     
     override func viewDidLoad() {
         runTimer()
+        pickSpinnerBtn.isHidden = true
+        
         super.viewDidLoad()
         let temp = UIApplication.shared.delegate as! AppDelegate
         greetingLabel.text = "Hello \(temp.userActive.name)"
         commandLabel.text = "Please wait for your friend confirmation"
         cancelButton.setTitle("CANCEL", for: .normal)
+        pickSpinnerBtn.setTitle("PICK SPINNER", for: .normal)
         headerCollection.text = "Friends Confirmation"
         timeLabel.textAlignment = NSTextAlignment.center
         //friends = createArray()

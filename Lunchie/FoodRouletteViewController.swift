@@ -2,7 +2,7 @@
 //  FoodRouletteViewController.swift
 //  Lunchie
 //
-//  Created by Bin-15 on 01/08/19.
+//  Created by Hanry Ham on 02/08/19.
 //  Copyright © 2019 Hanry Ham. All rights reserved.
 //
 
@@ -17,10 +17,10 @@ class FoodRouletteViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
         getFood()
         showFoodAtIndex(idx: 0)
     }
+    
     func getFood() {
         //get list of people from Event class
         //dummy
@@ -36,9 +36,10 @@ class FoodRouletteViewController: UIViewController {
     }
     
     @IBAction func spinRoulette(_ sender: Any) {
-        buttonSpin.isEnabled = false
+        buttonSpin?.isEnabled = false
         randomizePeople()
     }
+    
     //randomize people
     var timer: Timer?
     var timeLeft = 30
@@ -58,5 +59,5 @@ class FoodRouletteViewController: UIViewController {
             nextButton.isEnabled = true
         }
     }
-    //randomize people
+
 }

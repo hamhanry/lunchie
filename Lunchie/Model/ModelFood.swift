@@ -2,7 +2,7 @@
 //  ModelFood.swift
 //  Lunchie
 //
-//  Created by Bin-15 on 01/08/19.
+//  Created by Hanry Ham on 01/08/19.
 //  Copyright © 2019 Hanry Ham. All rights reserved.
 //
 
@@ -18,3 +18,4 @@ class ModelFood {
         self.name = name
     }
 }
+
