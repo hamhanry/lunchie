@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3EA363D922F2D337000D189A /* FoodRouletteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA363D822F2D337000D189A /* FoodRouletteController.swift */; };
 		545F5DAC22F2BCA60061F339 /* ModelFriend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545F5DAA22F2BCA50061F339 /* ModelFriend.swift */; };
 		545F5DAD22F2BCA60061F339 /* ModelUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545F5DAB22F2BCA50061F339 /* ModelUser.swift */; };
 		545F5DB422F2C09C0061F339 /* ModelHistoryMakanan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545F5DB322F2C09C0061F339 /* ModelHistoryMakanan.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3EA363D822F2D337000D189A /* FoodRouletteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodRouletteController.swift; sourceTree = "<group>"; };
 		545F5DAA22F2BCA50061F339 /* ModelFriend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelFriend.swift; sourceTree = "<group>"; };
 		545F5DAB22F2BCA50061F339 /* ModelUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelUser.swift; sourceTree = "<group>"; };
 		545F5DB322F2C09C0061F339 /* ModelHistoryMakanan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelHistoryMakanan.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 				54DB6B3222EEAB9600AB62F3 /* Assets.xcassets */,
 				54DB6B3422EEAB9600AB62F3 /* LaunchScreen.storyboard */,
 				54DB6B3722EEAB9600AB62F3 /* Info.plist */,
+				3EA363D822F2D337000D189A /* FoodRouletteController.swift */,
 			);
 			path = Lunchie;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 				54DB6B2E22EEAB9300AB62F3 /* StartController.swift in Sources */,
 				545F5DAC22F2BCA60061F339 /* ModelFriend.swift in Sources */,
 				545F5DB722F2C1260061F339 /* TableViewCellHistory.swift in Sources */,
+				3EA363D922F2D337000D189A /* FoodRouletteController.swift in Sources */,
 				54C46B5D22F281A9000D0D3D /* FriendController.swift in Sources */,
 				54DB6B2C22EEAB9300AB62F3 /* AppDelegate.swift in Sources */,
 			);
