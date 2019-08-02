@@ -35,11 +35,11 @@ class FriendController: UIViewController {
     func createArray() -> [ModelFriend]{
         var tempFriends : [ModelFriend] = []
         
-        let friend1 = ModelFriend(image : UIImage(named: "lunch")!, name: "Hanry")
-        let friend2 = ModelFriend(image : UIImage(named: "lunch")!, name: "Ade")
-        let friend3 = ModelFriend(image : UIImage(named: "lunch")!, name: "Alfi")
-        let friend4 = ModelFriend(image : UIImage(named: "lunch")!, name: "Chico")
-        let friend5 = ModelFriend(image : UIImage(named: "lunch")!, name: "Lasmi")
+        let friend1 = ModelFriend(image : UIImage(named: "p1")!, name: "Hanry")
+        let friend2 = ModelFriend(image : UIImage(named: "p2")!, name: "Ade")
+        let friend3 = ModelFriend(image : UIImage(named: "p3")!, name: "Alfi")
+        let friend4 = ModelFriend(image : UIImage(named: "p4")!, name: "Chico")
+        let friend5 = ModelFriend(image : UIImage(named: "p5")!, name: "Lasmi")
         
         tempFriends.append(friend1)
         tempFriends.append(friend2)

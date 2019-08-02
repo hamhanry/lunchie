@@ -18,6 +18,8 @@
 		545F5DC222F350AA0061F339 /* PeopleRouletteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545F5DC122F350AA0061F339 /* PeopleRouletteController.swift */; };
 		545F5DC622F3541F0061F339 /* PeopleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545F5DC522F3541F0061F339 /* PeopleCollectionViewCell.swift */; };
 		545F5DC822F361950061F339 /* FoodRouletteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545F5DC722F361950061F339 /* FoodRouletteViewController.swift */; };
+		545F5DCA22F3CC450061F339 /* FinalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545F5DC922F3CC450061F339 /* FinalViewController.swift */; };
+		54BCD9BF22F3D16400DBF450 /* FinalFriendCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BCD9BE22F3D16400DBF450 /* FinalFriendCollectionView.swift */; };
 		54C46B5D22F281A9000D0D3D /* FriendController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C46B5C22F281A9000D0D3D /* FriendController.swift */; };
 		54C46B6122F284F6000D0D3D /* FriendCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C46B6022F284F6000D0D3D /* FriendCell.swift */; };
 		54DB6B2C22EEAB9300AB62F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DB6B2B22EEAB9300AB62F3 /* AppDelegate.swift */; };
@@ -40,6 +42,8 @@
 		545F5DC122F350AA0061F339 /* PeopleRouletteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleRouletteController.swift; sourceTree = "<group>"; };
 		545F5DC522F3541F0061F339 /* PeopleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleCollectionViewCell.swift; sourceTree = "<group>"; };
 		545F5DC722F361950061F339 /* FoodRouletteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodRouletteViewController.swift; sourceTree = "<group>"; };
+		545F5DC922F3CC450061F339 /* FinalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalViewController.swift; sourceTree = "<group>"; };
+		54BCD9BE22F3D16400DBF450 /* FinalFriendCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalFriendCollectionView.swift; sourceTree = "<group>"; };
 		54C46B5C22F281A9000D0D3D /* FriendController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendController.swift; sourceTree = "<group>"; };
 		54C46B6022F284F6000D0D3D /* FriendCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendCell.swift; sourceTree = "<group>"; };
 		54DB6B2822EEAB9300AB62F3 /* Lunchie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lunchie.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -89,6 +93,7 @@
 			children = (
 				545F5DBA22F2D1CA0061F339 /* FriendCollectionView.swift */,
 				545F5DC522F3541F0061F339 /* PeopleCollectionViewCell.swift */,
+				54BCD9BE22F3D16400DBF450 /* FinalFriendCollectionView.swift */,
 			);
 			path = CollectionView;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 				54DB6B2D22EEAB9300AB62F3 /* StartController.swift */,
 				54FCBFDB22EEE4E300E9796B /* HistoryController.swift */,
 				54DB6B2F22EEAB9300AB62F3 /* Main.storyboard */,
+				545F5DC922F3CC450061F339 /* FinalViewController.swift */,
 				545F5DC122F350AA0061F339 /* PeopleRouletteController.swift */,
 				545F5DC722F361950061F339 /* FoodRouletteViewController.swift */,
 				54C46B5C22F281A9000D0D3D /* FriendController.swift */,
@@ -202,11 +208,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				545F5DB922F2CEEC0061F339 /* ConfirmationController.swift in Sources */,
+				545F5DCA22F3CC450061F339 /* FinalViewController.swift in Sources */,
 				545F5DBB22F2D1CA0061F339 /* FriendCollectionView.swift in Sources */,
 				545F5DC622F3541F0061F339 /* PeopleCollectionViewCell.swift in Sources */,
 				545F5DBD22F2D6EF0061F339 /* ModelEvent.swift in Sources */,
 				545F5DB422F2C09C0061F339 /* ModelHistoryMakanan.swift in Sources */,
 				545F5DC222F350AA0061F339 /* PeopleRouletteController.swift in Sources */,
+				54BCD9BF22F3D16400DBF450 /* FinalFriendCollectionView.swift in Sources */,
 				54C46B6122F284F6000D0D3D /* FriendCell.swift in Sources */,
 				545F5DAD22F2BCA60061F339 /* ModelUser.swift in Sources */,
 				54FCBFDC22EEE4E300E9796B /* HistoryController.swift in Sources */,

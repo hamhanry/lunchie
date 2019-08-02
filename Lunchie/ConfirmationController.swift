@@ -23,7 +23,7 @@ class ConfirmationController: UIViewController, UICollectionViewDelegate, UIColl
     var event : ModelEvent?
     var friends : [ModelFriend] = []
     var host : ModelUser?
-    var seconds = 60
+    var seconds = 20
     var timer = Timer()
     var isTimerRunning = false
     
@@ -61,7 +61,7 @@ class ConfirmationController: UIViewController, UICollectionViewDelegate, UIColl
         pickSpinnerBtn.isHidden = true
         
         super.viewDidLoad()
-        let temp = UIApplication.shared.delegate as! AppDelegate
+        //let temp = UIApplication.shared.delegate as! AppDelegate
         greetingLabel.text = "Hello \(temp.userActive.name)"
         commandLabel.text = "Please wait for your friend confirmation"
         cancelButton.setTitle("CANCEL", for: .normal)
@@ -70,6 +70,7 @@ class ConfirmationController: UIViewController, UICollectionViewDelegate, UIColl
         timeLabel.textAlignment = NSTextAlignment.center
         //friends = createArray()
         event = ModelEvent(host: temp.userActive, guest: friends)
+        
         collectionView.dataSource = self
         collectionView.delegate = self
     }

@@ -14,6 +14,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
     var userActive = ModelUser(name: "Hanry", profilePic: UIImage.init(named: "lunch")!);
     var listFriend : [ModelFriend] = []
+    var finalFood: UIImage!
+    
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.

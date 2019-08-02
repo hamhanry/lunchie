@@ -11,5 +11,4 @@ import UIKit
 class FriendCollectionView: UICollectionViewCell {
     @IBOutlet weak var profilePicture: UIImageView!
     @IBOutlet weak var nameLabel: UILabel!
-    let temp = UIApplication.shared.delegate as! AppDelegate
 }

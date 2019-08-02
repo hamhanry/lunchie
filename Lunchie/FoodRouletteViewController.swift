@@ -9,11 +9,13 @@
 import UIKit
 
 class FoodRouletteViewController: UIViewController {
+    let temp = UIApplication.shared.delegate as! AppDelegate
     var foods: [ModelFood] = []
     @IBOutlet weak var imageViewer: UIImageView!
     @IBOutlet weak var foodNameViewer: UILabel!
     @IBOutlet weak var buttonSpin: UIButton!
     @IBOutlet weak var nextButton: UIButton!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,10 +26,11 @@ class FoodRouletteViewController: UIViewController {
     func getFood() {
         //get list of people from Event class
         //dummy
-        foods.append(ModelFood(image: UIImage(named: "lunch")!, name: "Makanan Test"))
-        foods.append(ModelFood(image: UIImage(named: "lunch")!, name: "Makanan Test2"))
-        foods.append(ModelFood(image: UIImage(named: "lunch")!, name: "Makanan Test3"))
-        foods.append(ModelFood(image: UIImage(named: "lunch")!, name: "Makanan Test4"))
+        foods.append(ModelFood(image: UIImage(named: "ayamBlenger")!, name: "ayamBlenger"))
+        foods.append(ModelFood(image: UIImage(named: "ayamLengkuas")!, name: "ayamLengkuas"))
+        foods.append(ModelFood(image: UIImage(named: "nasiUduk")!, name: "nasiUduk"))
+        foods.append(ModelFood(image: UIImage(named: "rocky")!, name: "rocky"))
+        foods.append(ModelFood(image: UIImage(named: "sateKambing")!, name: "sateKambing"))
         //dummy
     }
     func showFoodAtIndex(idx: Int) {
@@ -57,6 +60,7 @@ class FoodRouletteViewController: UIViewController {
             timer!.invalidate()
             timer = nil
             nextButton.isEnabled = true
+            temp.finalFood = foods[index].image
         }
     }
 
